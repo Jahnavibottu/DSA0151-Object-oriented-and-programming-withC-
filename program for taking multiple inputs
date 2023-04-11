@@ -2,9 +2,21 @@
 using namespace std;
 int main()
 {
+	char a;
 	int num;
-	cout<<"enter a number:";
+	float num1;
+	double num2;
+	cout<<"enter a character:"<<endl;
+	cout<<"enter a integer:"<<endl;
+	cout<<"enter a float:"<<endl;
+	cout<<"enter a double:"<<endl;
+	cin>>a;
 	cin>>num;
-	cout<<"the num is:"<<num;
+	cin>>num1;
+	cin>>num2;
+	cout<<"character"<<a<<endl;
+	cout<<"integer:"<<num<<endl;
+	cout<<"float:"<<num1<<endl;
+	cout<<"double:"<<num2<<endl;
 	return 0;
 }
