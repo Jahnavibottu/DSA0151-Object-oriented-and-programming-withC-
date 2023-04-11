@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num1=70;
+	double num2=254.678;
+	float num3=30.1;
+	char ch='A';
+	cout<<"the number is"<<num1<<endl;
+	cout<<"the number is"<<num2<<endl;
+	cout<<"the number is"<<num3<<endl;
+	cout<<"the character is:"<<ch<<endl;
+	return 0;
+}
